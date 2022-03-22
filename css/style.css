@@ -56,13 +56,16 @@ h2.headings {
 
 .btn-grey {
   background-color: hsla(216, 12%, 54%, 0.14);
-  width: 4rem;
 }
 
 .btn-orange {
   background-color: hsl(25, 97%, 53%);
   color: hsla(0, 0%, 100%, 0.8);
   text-transform: uppercase;
+}
+
+.btn-small {
+  width: 4rem;
 }
 
 button:hover {
@@ -78,6 +81,11 @@ button.btn-grey:hover {
 button.btn-orange:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
+}
+
+.btn-clicked {
+  background-color: hsl(25, 97%, 53%);
+  color: hsla(0, 0%, 100%, 0.8);
 }
 
 body {
@@ -147,7 +155,7 @@ footer {
     padding: 1.5rem;
   }
 
-  .btn-grey {
+  .btn-small {
     width: 5rem;
   }
 
