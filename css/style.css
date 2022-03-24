@@ -133,11 +133,11 @@ footer {
   font-size: 1.1rem;
   text-align: center; 
   display: inline;
-  color: hsl(0, 0%, 100%);
+  color: hsl(217, 12%, 63%);
 }
 
 .attribution a {
-  color: hsl(0, 0%, 100%);
+  color: hsl(217, 12%, 63%);
 }
 
 @media screen and (min-width: 950px) {
