@@ -11,6 +11,9 @@ Neutral Colors
 - Very Dark Blue: hsl(216, 12%, 8%);
 */
 
+/* ==========
+  DEFAULTS
+========== */
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +24,9 @@ html {
   font-size: 62.5%;
 }
 
+/* ==========
+  TYPOGRAPHY
+========== */
 .headings {
   font-size: 2.4rem;
   color: hsl(0, 0%, 100%);
@@ -48,6 +54,9 @@ h2.headings {
   padding: 0.5rem 1rem;
 }
 
+/* ==========
+  COMPONENTS
+========== */
 .btn {
   border-radius: 5rem;
   border-style: none;
@@ -88,6 +97,10 @@ button.btn-orange:hover {
   color: hsla(0, 0%, 100%, 0.8);
 }
 
+/* ==========
+  LAYOUT
+========== */
+
 body {
   font-family: 'Overpass', sans-serif;
   background-color: hsl(216, 12%, 8%);
@@ -103,7 +116,6 @@ body {
   border-radius: 1.5rem;
 }
 
-/* == POSITION == */
 .flex-column-around {
   display: flex;
   flex-direction: column;
@@ -124,6 +136,9 @@ body {
   display: none;
 }
 
+/* ==========
+  ATTRIBUTION
+========== */
 footer {
   text-align: center;
   padding: 0.5rem;
@@ -140,6 +155,9 @@ footer {
   color: hsl(217, 12%, 63%);
 }
 
+/* ==========
+  @MEDIA QUERIES
+========== */
 @media screen and (min-width: 950px) {
   .container {
     width: 40rem;
